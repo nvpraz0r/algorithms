@@ -17,7 +17,7 @@ public class BubbleSort {
 
         long start = System.nanoTime();
 
-        int array[] = {9,3,4,2,1,8,7,6,5};
+        int array[] = {5,3,2,9,1,6,7,8,4};
 
         //bubbleSort array takes array parameter to sort
         for(int i = 0; i < array.length - 1; i++){
@@ -38,7 +38,7 @@ public class BubbleSort {
     
         //print sorted elements in array
         for(int i: array){
-            System.out.print(i + "");
+            System.out.print(i + " ");
         }
 
         long duration = (System.nanoTime() - start)/1000000;
