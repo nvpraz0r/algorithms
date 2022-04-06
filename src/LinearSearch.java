@@ -11,10 +11,8 @@
 public class LinearSearch {
     //
     public void search(){
-        System.out.println();
-        System.out.println("============");
-        System.out.println("Linear Search Algorithm");
-        System.out.println("------------");
+        StringUtils stringUtils = new StringUtils();
+        stringUtils.printOpening("Linear Search");
 
         long start = System.nanoTime();
 
@@ -28,7 +26,6 @@ public class LinearSearch {
         }
 
         long duration = (System.nanoTime() - start)/1000000;
-        System.out.println("Linear search execution duration: " + duration + "ms");
-        System.out.println("============");
+        stringUtils.printClosing("Linear Search", duration);
     }
 }

@@ -10,10 +10,8 @@ public class BubbleSort {
 
     //
     public void sort(){
-        System.out.println();
-        System.out.println("============");
-        System.out.println("Bubble Sort Algorithm");
-        System.out.println("------------");
+        StringUtils stringUtils = new StringUtils();
+        stringUtils.printOpening("XYZ");
 
         long start = System.nanoTime();
 
@@ -42,7 +40,6 @@ public class BubbleSort {
         }
 
         long duration = (System.nanoTime() - start)/1000000;
-        System.out.println("\nBubble sort execution duration: " + duration + "ms");
-        System.out.println("============");
+        stringUtils.printClosing("XYZ", duration);
     }
 }
