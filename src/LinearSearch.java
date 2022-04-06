@@ -23,7 +23,7 @@ public class LinearSearch {
 
         for(int i = 0; i < array.length; i++){
             if(array[i] == target){
-                System.out.println("Target( "+ target + ") found at position: " + i);
+                System.out.println("Target( "+ target + " ) found at position: " + i);
             }
         }
 

@@ -16,6 +16,8 @@ public class Main{
         linearsearch.search();
 
         //call binary search
+        BinarySearch binarysearch = new BinarySearch();
+        binarysearch.search();
 
         //call interpolation search
 
