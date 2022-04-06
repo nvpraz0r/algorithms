@@ -20,6 +20,8 @@ public class Main{
         binarysearch.search();
 
         //call interpolation search
+        InterpolationSearch interpolationsearch = new InterpolationSearch()
+        interpolationsearch.search();
 
         //call bubble sort
         BubbleSort bubblesort = new BubbleSort();

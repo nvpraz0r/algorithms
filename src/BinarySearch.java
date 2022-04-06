@@ -22,7 +22,7 @@ public class BinarySearch {
             int middle = low + (high - low) / 2;
             int value = array[middle];
 
-            System.out.println("Middle: " + value);
+            // System.out.println("Middle: " + value);
 
             if(value < target){
                 low = middle + 1;
