@@ -11,6 +11,7 @@
 public class LinearSearch {
     //
     public void search(){
+
         StringUtils stringUtils = new StringUtils();
         stringUtils.printOpening("Linear Search");
 
@@ -19,7 +20,11 @@ public class LinearSearch {
         int array[] = {5,3,2,9,1,6,7,8,4};
         int target = 1;
 
+        //loop through each element of the array
         for(int i = 0; i < array.length; i++){
+            //if the element at the current position
+            //is equal to the target print message
+            //doing nothing else
             if(array[i] == target){
                 System.out.println("Target( "+ target + " ) found at position: " + i);
             }
